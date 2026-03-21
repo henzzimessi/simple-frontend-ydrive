@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+.week-fade-enter-active,
+.week-fade-leave-active {
+	transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.week-fade-enter-from,
+.week-fade-leave-to {
+	opacity: 0;
+	transform: translateY(6px);
+}
+
+.week-slide-left-enter-active,
+.week-slide-left-leave-active,
+.week-slide-right-enter-active,
+.week-slide-right-leave-active {
+	transition: opacity 220ms ease, transform 220ms ease;
+}
+
+.week-slide-left-enter-from {
+	opacity: 0;
+	transform: translateX(16px);
+}
+
+.week-slide-left-leave-to {
+	opacity: 0;
+	transform: translateX(-16px);
+}
+
+.week-slide-right-enter-from {
+	opacity: 0;
+	transform: translateX(-16px);
+}
+
+.week-slide-right-leave-to {
+	opacity: 0;
+	transform: translateX(16px);
+}
