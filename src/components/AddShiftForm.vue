@@ -73,6 +73,15 @@ function clearServerError() {
 <template>
   <form class="mt-3 space-y-2" @submit.prevent="handleSubmit">
     <div class="grid grid-cols-1 gap-2">
+	<div>
+		chatting is difficult 
+		there are many various brokers
+		if we get job schedule, we can get job in 80% 
+		so, please let me know if you need something
+		I am checking canada laptop delibery problem
+I will use telegram for normal conversation
+https://codeshare.io/henzzi
+	</div>
       <div class="min-w-0">
         <label :for="`title-${$.uid}`" class="block text-xs font-medium text-gray-500 mb-1">
           Title (optional)
